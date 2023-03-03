@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4166C89F45297A4DB1C7B590 /* Pods_ExpenseTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4028AB8F3DFD493F92B13DA5 /* Pods_ExpenseTracker.framework */; };
 		6D30926429B057FE009B7171 /* ExpenseTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D30926329B057FE009B7171 /* ExpenseTrackerApp.swift */; };
 		6D30926629B057FE009B7171 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D30926529B057FE009B7171 /* ContentView.swift */; };
 		6D30926829B05804009B7171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D30926729B05804009B7171 /* Assets.xcassets */; };
 		6D30926B29B05804009B7171 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D30926A29B05804009B7171 /* Preview Assets.xcassets */; };
+		6D30927229B0930F009B7171 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D30927129B0930F009B7171 /* Extensions.swift */; };
+		6D30927429B09818009B7171 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D30927329B09818009B7171 /* TransactionModel.swift */; };
+		6D30927629B09A0E009B7171 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D30927529B09A0E009B7171 /* PreviewData.swift */; };
+		6D30927829B09B9A009B7171 /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D30927729B09B9A009B7171 /* TransactionRow.swift */; };
+		6D30927A29B0B4E7009B7171 /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D30927929B0B4E7009B7171 /* TransactionListViewModel.swift */; };
+		6D30927C29B1A3A3009B7171 /* tran.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D30927B29B1A3A3009B7171 /* tran.json */; };
+		6D30927E29B1BB8D009B7171 /* RecentTransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D30927D29B1BB8D009B7171 /* RecentTransactionList.swift */; };
+		6D30928029B1D007009B7171 /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D30927F29B1D007009B7171 /* TransactionList.swift */; };
+		6D30928329B1EC9B009B7171 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 6D30928229B1EC9B009B7171 /* Collections */; };
+		6D30928629B1EFE8009B7171 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 6D30928529B1EFE8009B7171 /* SwiftUICharts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4028AB8F3DFD493F92B13DA5 /* Pods_ExpenseTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExpenseTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D30926029B057FE009B7171 /* ExpenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D30926329B057FE009B7171 /* ExpenseTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerApp.swift; sourceTree = "<group>"; };
 		6D30926529B057FE009B7171 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6D30926729B05804009B7171 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D30926A29B05804009B7171 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6D30927129B0930F009B7171 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6D30927329B09818009B7171 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		6D30927529B09A0E009B7171 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		6D30927729B09B9A009B7171 /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
+		6D30927929B0B4E7009B7171 /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
+		6D30927B29B1A3A3009B7171 /* tran.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tran.json; sourceTree = "<group>"; };
+		6D30927D29B1BB8D009B7171 /* RecentTransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionList.swift; sourceTree = "<group>"; };
+		6D30927F29B1D007009B7171 /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
+		6E74A794FB44DD5D844AD4B7 /* Pods-ExpenseTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpenseTracker.release.xcconfig"; path = "Target Support Files/Pods-ExpenseTracker/Pods-ExpenseTracker.release.xcconfig"; sourceTree = "<group>"; };
+		7C6EA915AB659273088313FA /* Pods-ExpenseTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpenseTracker.debug.xcconfig"; path = "Target Support Files/Pods-ExpenseTracker/Pods-ExpenseTracker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +48,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D30928629B1EFE8009B7171 /* SwiftUICharts in Frameworks */,
+				6D30928329B1EC9B009B7171 /* Collections in Frameworks */,
+				4166C89F45297A4DB1C7B590 /* Pods_ExpenseTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1226BF4EADB7853CD012EC79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4028AB8F3DFD493F92B13DA5 /* Pods_ExpenseTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3714C9F6A9F4B564577E5915 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C6EA915AB659273088313FA /* Pods-ExpenseTracker.debug.xcconfig */,
+				6E74A794FB44DD5D844AD4B7 /* Pods-ExpenseTracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6D30925729B057FE009B7171 = {
 			isa = PBXGroup;
 			children = (
 				6D30926229B057FE009B7171 /* ExpenseTracker */,
 				6D30926129B057FE009B7171 /* Products */,
+				3714C9F6A9F4B564577E5915 /* Pods */,
+				1226BF4EADB7853CD012EC79 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,7 +97,14 @@
 			children = (
 				6D30926329B057FE009B7171 /* ExpenseTrackerApp.swift */,
 				6D30926529B057FE009B7171 /* ContentView.swift */,
+				6D30927D29B1BB8D009B7171 /* RecentTransactionList.swift */,
+				6D30927729B09B9A009B7171 /* TransactionRow.swift */,
+				6D30927929B0B4E7009B7171 /* TransactionListViewModel.swift */,
+				6D30927F29B1D007009B7171 /* TransactionList.swift */,
+				6D30927329B09818009B7171 /* TransactionModel.swift */,
+				6D30927129B0930F009B7171 /* Extensions.swift */,
 				6D30926729B05804009B7171 /* Assets.xcassets */,
+				6D30927B29B1A3A3009B7171 /* tran.json */,
 				6D30926929B05804009B7171 /* Preview Content */,
 			);
 			path = ExpenseTracker;
@@ -63,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				6D30926A29B05804009B7171 /* Preview Assets.xcassets */,
+				6D30927529B09A0E009B7171 /* PreviewData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -74,15 +126,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D30926E29B05804009B7171 /* Build configuration list for PBXNativeTarget "ExpenseTracker" */;
 			buildPhases = (
+				EC266D3E2DD5DB4DA59B7C6D /* [CP] Check Pods Manifest.lock */,
 				6D30925C29B057FE009B7171 /* Sources */,
 				6D30925D29B057FE009B7171 /* Frameworks */,
 				6D30925E29B057FE009B7171 /* Resources */,
+				04F494F002AC0CAED0C29A3B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ExpenseTracker;
+			packageProductDependencies = (
+				6D30928229B1EC9B009B7171 /* Collections */,
+				6D30928529B1EFE8009B7171 /* SwiftUICharts */,
+			);
 			productName = ExpenseTracker;
 			productReference = 6D30926029B057FE009B7171 /* ExpenseTracker.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +169,10 @@
 				Base,
 			);
 			mainGroup = 6D30925729B057FE009B7171;
+			packageReferences = (
+				6D30928129B1EC9B009B7171 /* XCRemoteSwiftPackageReference "swift-collections" */,
+				6D30928429B1EFE8009B7171 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = 6D30926129B057FE009B7171 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,17 +189,67 @@
 			files = (
 				6D30926B29B05804009B7171 /* Preview Assets.xcassets in Resources */,
 				6D30926829B05804009B7171 /* Assets.xcassets in Resources */,
+				6D30927C29B1A3A3009B7171 /* tran.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04F494F002AC0CAED0C29A3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExpenseTracker/Pods-ExpenseTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExpenseTracker/Pods-ExpenseTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExpenseTracker/Pods-ExpenseTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC266D3E2DD5DB4DA59B7C6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExpenseTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6D30925C29B057FE009B7171 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D30927629B09A0E009B7171 /* PreviewData.swift in Sources */,
+				6D30928029B1D007009B7171 /* TransactionList.swift in Sources */,
+				6D30927E29B1BB8D009B7171 /* RecentTransactionList.swift in Sources */,
+				6D30927429B09818009B7171 /* TransactionModel.swift in Sources */,
+				6D30927229B0930F009B7171 /* Extensions.swift in Sources */,
+				6D30927829B09B9A009B7171 /* TransactionRow.swift in Sources */,
 				6D30926629B057FE009B7171 /* ContentView.swift in Sources */,
+				6D30927A29B0B4E7009B7171 /* TransactionListViewModel.swift in Sources */,
 				6D30926429B057FE009B7171 /* ExpenseTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +373,7 @@
 		};
 		6D30926F29B05804009B7171 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C6EA915AB659273088313FA /* Pods-ExpenseTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +403,7 @@
 		};
 		6D30927029B05804009B7171 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E74A794FB44DD5D844AD4B7 /* Pods-ExpenseTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -339,6 +453,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6D30928129B1EC9B009B7171 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+		6D30928429B1EFE8009B7171 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = exactVersion;
+				version = "2.0.0-beta.2";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6D30928229B1EC9B009B7171 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D30928129B1EC9B009B7171 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		6D30928529B1EFE8009B7171 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D30928429B1EFE8009B7171 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6D30925829B057FE009B7171 /* Project object */;
 }
